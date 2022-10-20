@@ -175,7 +175,7 @@
                 ctx.drawImage(img, 0, 0, 300, 300);
             };
             var audio = new Audio();
-            audio.src = "buttonBgm.mp3";
+            audio.src = "haru.mp3";
             audio.play();
 
 
@@ -185,6 +185,9 @@
         function btnAClick(e) {
             active = true;
             startTime = new Date();
+            var audio = new Audio();
+            audio.src = "buttonBgm.mp3";
+            audio.play();
 
 
         }
